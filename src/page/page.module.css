@@ -1,0 +1,49 @@
+.container {
+  margin: 0 auto;
+  padding-top: 1px;
+  height: 100vh;
+  background-color: rgb(200, 180, 220);
+}
+
+.h1 {
+  text-align: center;
+}
+.p {
+  margin-top: -20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.kaito {
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center;
+}
+.sosa {
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+}
+
+.resetButton {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid rgb(90, 90, 90);
+  background-color: rgb(160, 150, 180);
+}
+
+.answerButton {
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(120, 70, 180);
+  border: 1px solid rgb(90, 90, 90);
+  &:disabled {
+    background-color: rgb(128, 128, 128);
+  }
+}
