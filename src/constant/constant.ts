@@ -1,10 +1,9 @@
-import icon from "../img/icon_dammy.png";
 import portraitA from "../img/portraitA.png";
-import portraitB from "../img/portraitA.png";
-import portraitC from "../img/portraitA.png";
-import portraitD from "../img/portraitA.png";
-import portraitE from "../img/portraitA.png";
-import portraitF from "../img/portraitA.png";
+import portraitB from "../img/portraitB.png";
+import portraitC from "../img/portraitC.png";
+import portraitD from "../img/portraitD.png";
+import portraitE from "../img/portraitE.png";
+import portraitF from "../img/portraitF.png";
 
 /** 証言者6人の名前 */
 export const nameFlg: string[] = ["A", "B", "C", "D", "E", "F"];
