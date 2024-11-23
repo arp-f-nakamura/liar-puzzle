@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/liar-puzzle/static/css/main.78e48591.css",
+    "main.css": "/liar-puzzle/static/css/main.09e60ebf.css",
     "main.js": "/liar-puzzle/static/js/main.f612db0d.js",
     "static/js/453.020e0b9f.chunk.js": "/liar-puzzle/static/js/453.020e0b9f.chunk.js",
     "static/media/portraitD.png": "/liar-puzzle/static/media/portraitD.3b6a6060f5fa2ecc2592.png",
@@ -10,12 +10,12 @@
     "static/media/portraitF.png": "/liar-puzzle/static/media/portraitF.5f396693738e7018f71f.png",
     "static/media/portraitA.png": "/liar-puzzle/static/media/portraitA.a25f771edcfc687dace0.png",
     "index.html": "/liar-puzzle/index.html",
-    "main.78e48591.css.map": "/liar-puzzle/static/css/main.78e48591.css.map",
+    "main.09e60ebf.css.map": "/liar-puzzle/static/css/main.09e60ebf.css.map",
     "main.f612db0d.js.map": "/liar-puzzle/static/js/main.f612db0d.js.map",
     "453.020e0b9f.chunk.js.map": "/liar-puzzle/static/js/453.020e0b9f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78e48591.css",
+    "static/css/main.09e60ebf.css",
     "static/js/main.f612db0d.js"
   ]
 }
