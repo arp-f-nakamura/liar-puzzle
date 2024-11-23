@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/liar-puzzle/static/css/main.78e48591.css",
+    "main.js": "/liar-puzzle/static/js/main.f612db0d.js",
+    "static/js/453.020e0b9f.chunk.js": "/liar-puzzle/static/js/453.020e0b9f.chunk.js",
+    "static/media/portraitD.png": "/liar-puzzle/static/media/portraitD.3b6a6060f5fa2ecc2592.png",
+    "static/media/portraitC.png": "/liar-puzzle/static/media/portraitC.dda8d851a11dcf82bdc9.png",
+    "static/media/portraitB.png": "/liar-puzzle/static/media/portraitB.c4f797535fcfafe514a9.png",
+    "static/media/portraitE.png": "/liar-puzzle/static/media/portraitE.d66426a8f5b041136c39.png",
+    "static/media/portraitF.png": "/liar-puzzle/static/media/portraitF.5f396693738e7018f71f.png",
+    "static/media/portraitA.png": "/liar-puzzle/static/media/portraitA.a25f771edcfc687dace0.png",
+    "index.html": "/liar-puzzle/index.html",
+    "main.78e48591.css.map": "/liar-puzzle/static/css/main.78e48591.css.map",
+    "main.f612db0d.js.map": "/liar-puzzle/static/js/main.f612db0d.js.map",
+    "453.020e0b9f.chunk.js.map": "/liar-puzzle/static/js/453.020e0b9f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78e48591.css",
+    "static/js/main.f612db0d.js"
+  ]
+}
