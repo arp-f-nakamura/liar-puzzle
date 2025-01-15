@@ -11,6 +11,15 @@ const commentContent = (flg: boolean, specify: number): string => {
   return "error";
 };
 
+const getRandomExcluding = (i: number): number => {
+  // 0 <= j < max かつ j !== i のランダム整数を生成
+  let j;
+  do {
+    j = Math.floor(Math.random() * 6);
+  } while (j === i);
+  return j;
+};
+
 /** 嘘つきパズルを作るロジック */
 export const arrayControl = (): Question[] => {
   const shuffleArray = (array: any[]) => {
@@ -40,12 +49,9 @@ export const arrayControl = (): Question[] => {
       /** i番目が嘘つきだった場合、嘘の発言をする */
       if (specify === i) {
         // 0<= j < 6
-        const j = Math.floor(Math.random() * 6);
-        if (j === i) {
-          comment = "僕は正直者だよ";
-        } else {
-          comment = commentContent(liarFlg[j] === 1, j);
-        }
+        const j = getRandomExcluding(i);
+
+        comment = commentContent(liarFlg[j] === 1, j);
       } else if (specify !== i) {
         comment = commentContent(liarFlg[specify] === 1, specify);
       }
@@ -53,12 +59,8 @@ export const arrayControl = (): Question[] => {
       /** i番目がほんとつきだった場合、本当の発言をする */
       if (specify === i) {
         // 0<= j < 6
-        const j = Math.floor(Math.random() * 6);
-        if (j === i) {
-          comment = "僕は正直者だよ";
-        } else {
-          comment = commentContent(liarFlg[j] === 0, j);
-        }
+        const j = getRandomExcluding(i);
+        comment = commentContent(liarFlg[j] === 0, j);
       } else if (specify !== i) {
         comment = commentContent(liarFlg[specify] === 0, specify);
       }
@@ -75,8 +77,6 @@ export const arrayControl = (): Question[] => {
 
     question.push(element);
   }
-
-  console.log(question);
 
   return question;
 };
